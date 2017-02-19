@@ -56,10 +56,10 @@ public class Heap {
 		return false;
 	}
 	
-	public Boolean containsOptimised(int value){
+/*	public Boolean containsOptimised(int value){
 		
 	}
-	
+	*/
 	public Boolean swapElements(int indexA, int indexB){
 		if(indexA > array.length-1 && indexB > array.length-1)
 			return false;
